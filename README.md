@@ -25,6 +25,17 @@
 
 Just ensure that Hello world example was successfully run
 
+## Install the RISC-V-specific version of OpenOCD
+`cd riscv-openocd`
+
+`./bootstrap`
+
+`./configure --enable-jtag_vpi --enable-ftdi`
+
+`make`
+
+`sudo make install`
+
 ## Clone repo
 `git clone https://github.com/AlexeyYukhin/tensorflow_swervolf_nexys`
 
