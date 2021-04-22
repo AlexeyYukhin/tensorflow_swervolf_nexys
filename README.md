@@ -75,6 +75,11 @@ Just ensure that Hello world example was successfully run
 
 `pip3 install -r scripts/requirements.txt`
 
+`virtualenv venv-zephyr`
+
+`pip3 install cmake --upgrade`
+
+
 ## Install zephyr SDK
 `wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.12.4/zephyr-sdk-0.12.4-x86_64-linux-setup.run`
 
