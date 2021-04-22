@@ -1,7 +1,12 @@
-[submodule "fusesoc_libraries/Cores-SweRVolf"]
-	path = fusesoc_libraries/Cores-SweRVolf
+[submodule "fusesoc_libraries/Cores-SwerVolf"]
+	path = fusesoc_libraries/Cores-SwerVolf
 	url = https://github.com/AlexeyYukhin/Cores-SweRVolf
 [submodule "fusesoc_libraries/fusesoc-cores"]
 	path = fusesoc_libraries/fusesoc-cores
 	url = https://github.com/fusesoc/fusesoc-cores
-
+[submodule "tensorflow"]
+	path = tensorflow
+	url = https://github.com/AlexeyYukhin/tensorflow
+[submodule "riscv-openocd"]
+	path = riscv-openocd
+	url = https://github.com/riscv/riscv-openocd
