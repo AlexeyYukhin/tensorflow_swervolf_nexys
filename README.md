@@ -33,5 +33,11 @@ Just ensure that Hello world example was successfully run
 ## Install fusesoc
 `sudo pip3 install fusesoc`
 
+## Set env for swervolf
+`cd tensorflow_swervolf_nexys`
+
+`export WORKSPACE=$(pwd)`
+
+`export SWERVOLF_ROOT=$(pwd)/fusesoc_libraries/Cores-SwerVolf`
 
 
