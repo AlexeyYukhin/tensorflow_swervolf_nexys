@@ -70,3 +70,8 @@ Just ensure that Hello world example was successfully run
 `chmod +x zephyr-sdk-0.12.4-x86_64-linux-setup.run`
 
 `./zephyr-sdk-0.12.4-x86_64-linux-setup.run -- -d ~/zephyr-sdk-0.12.4`
+
+## Build Hello World example
+`cd $WORKSPACE/tensorflow`
+
+`make -f tensorflow/lite/micro/tools/make/Makefile TERGET=zephyr_swervolf BUILD_TYPE=debug hello_world_bin`
