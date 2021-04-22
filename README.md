@@ -86,3 +86,6 @@ Just ensure that Hello world example was successfully run
 `cd $WORKSPACE/tensorflow`
 
 `make -f tensorflow/lite/micro/tools/make/Makefile TERGET=zephyr_swervolf BUILD_TYPE=debug hello_world_bin`
+
+The resulting binaries can be found in the 
+`tensorflow/lite/micro/tools/make/gen/zephyr_vexriscv_x86_64/hello_world/build/zephyr` folder.
