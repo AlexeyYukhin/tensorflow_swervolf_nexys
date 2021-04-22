@@ -4,7 +4,9 @@
 
 ## Install Verilator
 `git clone https://github.com/verilator/verilator`
+
 `unset VERILATOR_ROOT`
+
 `cd verilator`
 `git checkout stable`
 `autoconf`
