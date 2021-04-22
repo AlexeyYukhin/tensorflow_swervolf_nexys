@@ -48,3 +48,12 @@ Just ensure that Hello world example was successfully run
 `echo 'export PATH=~/.local/bin:"$PATH"' >> ~/.bashrc`
 
 `source ~/.bashrc`
+
+## Install zephyr
+`cd $WORKSPACE`
+
+`west init`
+
+`west config manifest.path fusesoc_libraries/Cores-SwerVolf`
+
+`west update`
