@@ -24,3 +24,14 @@
 `make`
 
 Just ensure that Hello world example was successfully run
+
+## Clone repo
+`git clone https://github.com/AlexeyYukhin/tensorflow_swervolf_nexys`
+
+`git submodule update --init --recursive`
+
+## Install fusesoc
+`sudo pip3 install fusesoc`
+
+
+
