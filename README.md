@@ -40,4 +40,11 @@ Just ensure that Hello world example was successfully run
 
 `export SWERVOLF_ROOT=$(pwd)/fusesoc_libraries/Cores-SwerVolf`
 
+## Install west
+`cd`
 
+`pip3 install -U west`
+
+`echo 'export PATH=~/.local/bin:"$PATH"' >> ~/.bashrc`
+
+`source ~/.bashrc`
