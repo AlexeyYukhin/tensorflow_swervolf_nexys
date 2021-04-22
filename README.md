@@ -8,11 +8,19 @@
 `unset VERILATOR_ROOT`
 
 `cd verilator`
+
 `git checkout stable`
+
 `autoconf`
+
 `./configure`
+
 `make -j 4`
+
 `sudo make install`
+
 `cd examples/make_hello_c`
+
 `make`
+
 Just ensure that Hello world example was successfully run
