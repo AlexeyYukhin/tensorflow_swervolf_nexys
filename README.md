@@ -63,3 +63,10 @@ Just ensure that Hello world example was successfully run
 `cd $ZEPHYR_BASE`
 
 `pip3 install -r scripts/requirements.txt`
+
+## Install zephyr SDK
+`wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.12.4/zephyr-sdk-0.12.4-x86_64-linux-setup.run`
+
+`chmod +x zephyr-sdk-0.12.4-x86_64-linux-setup.run`
+
+`./zephyr-sdk-0.12.4-x86_64-linux-setup.run -- -d ~/zephyr-sdk-0.12.4`
