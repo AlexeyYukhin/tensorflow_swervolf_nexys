@@ -57,3 +57,9 @@ Just ensure that Hello world example was successfully run
 `west config manifest.path fusesoc_libraries/Cores-SwerVolf`
 
 `west update`
+
+`export ZEPHYR_BASE=$WORKSPACE/zephyr`
+
+`cd $ZEPHYR_BASE`
+
+`pip3 install -r scripts/requirements.txt`
